@@ -2,15 +2,12 @@
   text-align: center;
 }
 
-p{
-  clear:right;
- }
-
 .App-logo {
   height: 6vmin;
   pointer-events: none;
   float: right;
   margin-left: 3rem;
+  margin-right: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
