@@ -1,14 +1,13 @@
 import './App.css';
 import { NavigationBar } from './components/NavigationBar';
-import { ErrorPage } from './error/ErrorPage';
-import { HomePage } from './home/HomePage';
-import { LoginPage } from './login/LoginPage';
-import { RegisterPage } from './register/RegisterPage';
-import { ProfilePage } from './profile/ProfilePage';
-import { AdminPage } from './admin/AdminPage';
-import { UnauthorizedPage } from './unauthorized/UnauthorizedPage';
+import { ErrorPage } from './pages/error/ErrorPage';
+import { HomePage } from './pages/home/HomePage';
+import { LoginPage } from './pages/login/LoginPage';
+import { RegisterPage } from './pages/register/RegisterPage';
+import { ProfilePage } from './pages/profile/ProfilePage';
+import { AdminPage } from './pages/admin/AdminPage';
+import { UnauthorizedPage } from './pages/unauthorized/UnauthorizedPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import React from 'react';
 
 function App() {
   return (
