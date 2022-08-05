@@ -1,7 +1,5 @@
 const ErrorPage = () => {
-
     return (
-
         <body id="body-error">
             <div id="header"><h1>Server Error</h1></div>
             <div id="content">
@@ -13,7 +11,6 @@ const ErrorPage = () => {
                 </div>
             </div>
         </body>
-
     )
 }
 
