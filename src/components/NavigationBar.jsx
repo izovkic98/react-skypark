@@ -1,5 +1,5 @@
+import { NavLink, useNavigate } from 'react-router-dom';
 import logo from './Skypark_logo.png';
-
 
 const NavigationBar = () => {
 
@@ -11,32 +11,22 @@ const NavigationBar = () => {
 
             <div className="navbar-nav me-auto">
                 <li className="nav-item">
-                    <a href="" className="nav-link">Admin</a>
+                    <NavLink to="/admin" className='nav-link' >Admin</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">Home</a>
+                    <NavLink to="/home" className='nav-link' >Home</NavLink>
                 </li>
             </div>
 
             <div className="navbar-nav ms-auto">
                 <li className="nav-item">
-                    <a href="" className="nav-link">Sign Up</a>
+                    <NavLink to="/login" className='nav-link' >Sign In</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link"> Sign In</a>
+                    <NavLink to="/register" className='nav-link' >Sign Up</NavLink>
                 </li>
             </div>
 
-            <div className="navbar-nav ms-auto">
-                <li className="nav-item">
-                </li>
-                <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        Sign Out
-                    </a>
-                </li>
-            </div>
-            
         </nav>
     );
 
