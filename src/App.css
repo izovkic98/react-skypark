@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-*, *:after, *:before {
+/* *, *:after, *:before {
   box-sizing: content-box !important;
-}
+} */
 
 .App-logo {
   height: 6vmin;
@@ -15,7 +15,7 @@
 }
 
 #header {
-  width: 96%;
+  width: 98%;
   margin: 0 0 0 0;
   padding: 6px 2% 6px 2%;
   font-family: "trebuchet MS", Verdana, sans-serif;
@@ -84,7 +84,7 @@
   margin-top: 2rem;
   font-size: .7em;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  background: #EEEEEE;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {

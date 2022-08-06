@@ -1,3 +1,4 @@
+
 const ErrorPage = () => {
     return (
         <body id="body-error">
