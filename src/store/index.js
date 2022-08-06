@@ -1,11 +1,13 @@
 import userReducer from "./reducers/user";
 import { combineReducers } from 'redux';
-import { legacy_createStore as createStore} from 'redux'
+import { configureStore } from "@reduxjs/toolkit";
 
 const allReducers = combineReducers({
     user: userReducer,
 });
 
-const store = createStore(allReducers);
+const store = configureStore({
+    reducer: allReducers
+  })
 
 export default store;

@@ -14,7 +14,6 @@ const RegisterPage = () => {
     const [submitted, setSubmitted] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
 
-  
     // @ts-ignore
     const currentUser = useSelector(state => state.user);
 
